@@ -107,7 +107,9 @@ body {
   transition: 0.5s;
   color: white;
 }
-
+.navbar-brand:hover {
+  color: white;
+}
 .navbar.visible .navbar-nav .nav-item .nav-link,
 .navbar.visible .navbar-brand {
   color: black;
