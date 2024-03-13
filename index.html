@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&family=Noto+Serif+Georgian&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f6749eff1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section id="header" class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="div-child1">
+            <div class="logo">
+              <img
+                src="https://play-lh.googleusercontent.com/j4NTn_Z7IfaPMo4iPygQT7oKwofcENt3QN6Dxjwyf8yLUycv6qPfiUDEMkdC-Xk8eaQ"
+                alt="logo"
+                class="img1"
+              />
+              <a class="navbar-brand" href="#">
+                <i class="heritage">Heritage</i> <br />Adiss
+              </a>
+            </div>
+            <button
+              type="submit"
+              onclick="scrollToContacts()"
+              class="btn btn-primary btn-lg login"
+            >
+              Get Started
+            </button>
+          </div>
+          <div class="div-child2">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Recommendations"
+                    >Recommendations</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="home-text">
+        <h1>Your Guide To The City</h1>
+        <p>
+          Explore top attractions, find hidden gems, and get insider tips on the
+          best restaurants, hotels, and activities. Immerse yourself in the
+          vibrant culture and history of Addis Ababa with our user-friendly and
+          comprehensive app. Enhance your travel experience and make the most of
+          your visit to this captivating city.
+        </p>
+      </div>
+    </section>
+    <section id="body">
+      <div class="welcome">
+        <i class="fa fa-sharp fa-solid fa-location-dot location"> </i>
+        <i class="fa fa-regular fa-mobile-signal"></i>
+        <h1>
+          WELCOME TO<br />
+          HISTORIC TREASURES
+        </h1>
+        <h2>Discover Addis Ababa's Heritage Sites</h2>
+        <p style="font-size: large">
+          Immerse yourself in the vibrant history of Addis Ababa as you explore
+          its iconic landmarks, such as the UNESCO-listed Holy Trinity Cathedral
+          and the ancient ruins of Entoto Maryam Church. Marvel at the ancient
+          artifacts in the National Museum and stroll through the bustling
+          Merkato Market, Africa's largest open-air market. Experience the rich
+          heritage and architectural wonders of Addis Ababa's past, each site
+          offering a unique glimpse into Ethiopia's captivating history.
+        </p>
+        <hr />
+      </div>
+
+      <div id="Features" class="info-divs">
+        <div class="row">
+          <div class="col-4">
+            <i class="fa fa-solid fa-earth-africa icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Map</h5>
+              <p>
+                A tour guide map with suggestions allowing users to effortlessly
+                navigate the city's streets and attractions.
+              </p>
+              <a href="AAMAP.png" target="_blank">Click Here</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <i class="fa-solid fa-circle-info icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Information</h5>
+              <p>
+                This is a place where you can get details about heritage sites
+                in Addis and information about them
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <i class="fa fa-solid fa-circle-check icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Recommendation</h5>
+              <p>
+                In this section you can get best sites with estimated day and
+                cost based on their proximity
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <i class="fa-solid fa-exclamation icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Must seen Site</h5>
+              <p>
+                Any tourist who landed in Addis must see those land marks even
+                in short time of period
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <i class="fa-solid fa-mobile-screen icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Mobile app</h5>
+              <p>
+                A mobile application with detail information about heritage
+                sites in Addis Ababa
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <i class="fa-solid fa-mobile-screen icons"></i>
+            <div>
+              <h5 style="font-weight: bold">Mobile app</h5>
+              <p>
+                A mobile application with detail information about heritage
+                sites in Addis Ababa
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="Service" class="main row">
+        <nav class="accordion arrows col-6">
+          <!-- Accordion menu 1 -->
+          <header class="box">
+            <label for="acc-close" class="box-title"
+              ><h3 style="padding: 0; position: relative; top: 15px">
+                Sites To Visit
+              </h3></label
+            >
+          </header>
+          <input type="radio" name="accordion" id="cb1" />
+          <section class="box">
+            <label class="box-title" for="cb1">For Day-1</label>
+            <label class="box-close" for="acc-close"></label>
+
+            <div class="box-content">
+              <a style="padding: 5px" href="infos/pic1.jpg">site1</a>
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Abune Petros.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Addis Ababa Museum.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Amsale Genet.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Anwar Mosque.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Baeta Mariam.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Bank of Abissiniya.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Dejazmach asfaw kebede Residence.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Etege Menene Female School.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Freedom(Meyazia 27) Monument.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Genete Leul.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/La gare- ethiodjibouti railway station.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Menelik school.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Monument of lion of judha.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Ras Desta Damtew hospital.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Sheh Hojele Palace.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/St. George  Ghiorghis Church.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/St. Selassie Holy Trinity Cathedral.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Taitu Hotel.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Tegbareid polytechnic.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/wafa cinema.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Washa Mikaeil.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Alfred IIg residence.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Bete Seida Hospital.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Biadgellign hotel.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/CINEMA EMPIRE.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/dejach kebede tessema residence.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Dejazmach asfaw kebede Residence.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Finfine hotel.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Mussie fasika Residence.jpg"
+                >site2</a
+              >
+            </div>
+          </section>
+
+          <!-- Accordion menu 2 -->
+          <input type="radio" name="accordion" id="cb2" />
+          <section class="box">
+            <label class="box-title" for="cb2">For Day-2</label>
+            <label class="box-close" for="acc-close"></label>
+
+            <div class="box-content">
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Nersis Nalbandian Residence.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Patriarchs Residence.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/Ras Mulugeta yigezu residence.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/Heritage site in jpg/Not Edited/st mary in entoto.jpg"
+                >site4</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/1.jpg"
+                >site5</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/10.jpg"
+                >site6</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/11.jpg"
+                >site7</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/111.jpg"
+                >site1</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/2.jpg"
+                >site2</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/3.jpg"
+                >site3</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/4.jpg"
+                >site4</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/7.jpg"
+                >site5</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/5.jpg"
+                >site6</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/8.jpg"
+                >site7</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/9.jpg"
+                >site1</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/A 20.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/A.A museum.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/ato syum.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/CINEMA EMPIRE.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/court yard.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Dej. Letyibelu Gebre residence.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Dejazmach ayalew birru residence.jpg"
+                >site1</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/G23.jpg"
+                >site2</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/hertage.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage11.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage21.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage221.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage223.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage333.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage34.jpg"
+                >site7</a
+              >
+            </div>
+          </section>
+
+          <!-- Accordion menu 3 -->
+          <input type="radio" name="accordion" id="cb3" />
+          <section class="box">
+            <label class="box-title" for="cb3">For Week-1</label>
+            <label class="box-close" for="acc-close"></label>
+            <div class="box-content">
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage43.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage53.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage54.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage546.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage76.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/hertage98.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/k 19 (2).jpg"
+                >site7</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/KURAZ.jpg"
+                >site1</a
+              >
+              <a style="padding: 5px" href="infos/st mary in entoto/ligaba.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/National museum.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/negadras emru.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Papadopaulos residence.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/photo_2023-05-29_00-08-41.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/photo_2023-06-19_09-45-59.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/photo_2023-06-19_10-34-29.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/photo_2023-06-19_10-35-19.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/St Franchisco catholic church.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/st mary in entoto.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Tegbareid polytechnic.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/The first greek church.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-1.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-10.jpg"
+                >site1</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-11.jpg"
+                >site2</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-12.jpg"
+                >site3</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-13.jpg"
+                >site4</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-14.jpg"
+                >site5</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-15.jpg"
+                >site6</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-16.jpg"
+                >site7</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-17.jpg"
+                >site8</a
+              >
+              <a
+                style="padding: 5px"
+                href="infos/st mary in entoto/Untitled-18.jpg"
+                >site9</a
+              >
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="acc-close" />
+        </nav>
+        <img class="col-6 mid-img" src="BB.jpg" class="mid-img" alt="" />
+      </div>
+
+      <hr />
+
+      <div id="Recommendations" class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="2500"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              class="inactive"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              class="inactive"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              class="inactive"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              class="inactive"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider-div">
+                <div
+                  class="slider-info"
+                  style="background-color: rgb(206, 206, 241)"
+                >
+                  <h3
+                    style="font-weight: bold; position: relative; right: 80px"
+                  >
+                    St George Church
+                  </h3>
+                  <p>
+                    Addis' Piazza cathedral, commissioned by Emperor Menelik II,
+                    commemorates his victory at Adwa. The interior dazzles with
+                    colorful art, while the exterior is grey stone. The church's
+                    ceiling and inner shrine walls feature stunning paintings
+                    and mosaics by Afewerk Tekle. Built in 1911, the octagonal
+                    church blends neoclassical style with contributions from
+                    Greek, Armenian, and Indian artists. Empress Zewditu and
+                    Emperor Haile Selassie were crowned here in 1916 and 1930
+                    respectively.
+                  </p>
+                </div>
+                <picture class="pic">
+                  <img
+                    src="./im1.jpeg"
+                    alt=""
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="carousel-item sec">
+              <div class="slider-div">
+                <div
+                  class="slider-info"
+                  style="background-color: rgb(206, 206, 241)"
+                >
+                  <h3
+                    style="font-weight: bold; position: relative; right: 66.8px"
+                  >
+                    Ras Birru Residence
+                  </h3>
+                  <p>
+                    The Amharigna on the gates reads "Ras Birru", who was the
+                    owner of this house a long time ago. The building dates back
+                    to the 1880's and is now the Addis Ababa Museum. Really nice
+                    place that unfairly gets a rough ride because it's not fancy
+                    like other Museums in the world. Ras Biru's House, a stone
+                    masonry-timber building (note the knee-braces) and the
+                    double arches on the door way. It now documents Addis
+                    Ababa's history.
+                  </p>
+                </div>
+                <picture class="pic">
+                  <img
+                    src="./im2.jpg"
+                    alt=""
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="carousel-item thr">
+              <div class="slider-div">
+                <div
+                  class="slider-info"
+                  style="background-color: rgb(206, 206, 241)"
+                >
+                  <h3
+                    style="font-weight: bold; position: relative; right: 60px"
+                  >
+                    Abune Petros Statue
+                  </h3>
+                  <p>
+                    Abune Petros, born in 1892 in Fiche, Ethiopia, became a monk
+                    at 24 after taking the Ethiopian Orthodox Church oath. Known
+                    for his insightful teachings, he was appointed a bishop in
+                    1928 with the name Abune Petros. During Italy's invasion in
+                    1932, he accompanied Emperor Haile Selassie to the northern
+                    front, aiding the wounded, praying, and preaching.
+                    Tragically, he was executed on July 29, 1936, by Italian
+                    Fascist forces for publicly condemning colonialism and
+                    invasion.
+                  </p>
+                </div>
+                <picture class="pic">
+                  <img src="abunep.jpg" alt="" />
+                </picture>
+              </div>
+            </div>
+            <div class="carousel-item thr">
+              <div class="slider-div">
+                <div
+                  class="slider-info"
+                  style="background-color: rgb(206, 206, 241)"
+                >
+                  <h3
+                    style="
+                      font-weight: bold;
+                      position: relative;
+                      right: 105px;
+                      top: 10px;
+                    "
+                  >
+                    Lion Of Judah
+                  </h3>
+                  <p>
+                    Located near the National Theater, this monument
+                    commemorates Emperor Haile Selassie's Silver Jubilee in
+                    1955. The Emperor commissioned the monument to symbolize
+                    Africa's progress into modernity. Architect Henry Shomet
+                    recommended sculptor Maurice Calka, whose work embodied
+                    radical modernity. It presents a contemporary interpretation
+                    of the original Lion of Judah statue and remains a symbol
+                    used by the Ministry of Culture and Tourism.
+                  </p>
+                </div>
+                <picture class="pic">
+                  <img
+                    src="./im4.jpg"
+                    alt=""
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="carousel-item thr">
+              <div class="slider-div">
+                <div
+                  class="slider-info"
+                  style="background-color: rgb(206, 206, 241)"
+                >
+                  <h3
+                    style="font-weight: bold; position: relative; right: 76.5px"
+                  >
+                    Itegue Taitu Hotel
+                  </h3>
+                  <p>
+                    A historic hotel established in 1898, which is Ethiopia's
+                    first hotel in the vibrant city center of Piazza. With
+                    stunning views and a cool breeze, it's conveniently located
+                    near the airport, Sheraton International Hotel, and UNECA.
+                    Enjoy comfortable rooms, a bar, a restaurant with live jazz
+                    music, and other amenities, all in a charming and friendly
+                    atmosphere.
+                  </p>
+                </div>
+                <picture class="pic">
+                  <img
+                    src="./im5.jpg"
+                    alt=""
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container-last">
+        <div class="row">
+          <div class="footer-col des">
+            <h4>About Us</h4>
+            <p>
+              Our app offers user-friendly maps, suggested itineraries, and
+              audio guides to ensure you make the most of your visit. You can
+              easily navigate through the city, locate nearby heritage sites,
+              and access insider tips and recommendations from locals. Engage
+              with the app's interactive features to dive deeper into Addis
+              Ababa's heritage, including virtual tours, multimedia
+              presentations, and curated collections.
+            </p>
+          </div>
+          <div class="footer-col last2">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <p style="color: white; margin-top: 30px">
+                © 2023, All rights are preserved, Heritage Addis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
