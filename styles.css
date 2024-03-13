@@ -403,6 +403,9 @@ picture {
 .arrows {
   margin-right: 50px !important;
 }
+#Features > *{
+  cursor: pointer;
+}
 .accordion {
   background-image: url(BG.png);
   background-size: cover;
